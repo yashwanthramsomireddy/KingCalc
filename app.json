@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "KingCalc",
+    "slug": "kingcalc",
+    "owner": "teamexykings",
+    "version": "1.1.0",
+    "scheme": "kingcalc",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#000000",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ]
+    ],
+    "android": {
+      "package": "in.teamexykings.kingcalc",
+      "backgroundColor": "#000000",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8d72cf8a-da9c-40f0-95ac-f065631d4071"
+      }
+    }
+  }
+}
