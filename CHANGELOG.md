@@ -4,11 +4,18 @@ All notable changes to KingCalc are documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project follows [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+## [1.1.0] - Unreleased
 
-## [1.0.0] - Unreleased
+Production release build (Android version code 3). Includes everything from 1.0.0. There are no functional changes.
 
-First public release.
+### Changed
+- Version bumped to 1.1.0 for the Google Play production release
+- Play Store title is now "KingCalc - Calculator" (the app name under the icon stays "KingCalc")
+- Full source code published to this repository
+
+## [1.0.0] - 2026-09-28
+
+First build, released to the Google Play closed test.
 
 ### Added
 - Calculator with live result preview, history, `%`, `()` and `00` keys
@@ -30,5 +37,5 @@ First public release.
 - About screen with website and privacy policy links
 - MIT license, README and privacy policy
 
-[Unreleased]: https://github.com/yashwanthramsomireddy/KingCalc/compare/v1.0.0...HEAD
+[1.1.0]: https://github.com/yashwanthramsomireddy/KingCalc/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/yashwanthramsomireddy/KingCalc/releases/tag/v1.0.0

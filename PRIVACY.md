@@ -41,6 +41,10 @@ KingCalc requests no sensitive permissions. It uses internet access only for the
 - **ExchangeRate-API (currency rates):** described above. Their terms and privacy practices apply to that request: https://www.exchangerate-api.com/terms
 - **No** advertising networks, analytics, crash-reporting or tracking SDKs are included.
 
+## Google Play
+
+KingCalc is distributed through Google Play. Google may share anonymous, aggregated statistics with the developer, such as install counts and crash reports from users who chose to share diagnostics. This is handled by Google under its own privacy policy. KingCalc itself does not collect it, and the app has no way to identify you.
+
 ## Children's privacy
 
 KingCalc collects no data from anyone, including children under 13.
