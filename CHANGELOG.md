@@ -25,5 +25,5 @@ First public release.
 - About screen with website and privacy policy links
 - MIT license, README and privacy policy
 
-[Unreleased]: https://github.com/teamexykings/kingcalc/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/teamexykings/kingcalc/releases/tag/v1.0.0
+[Unreleased]: https://github.com/yashwanthramsomireddy/KingCalc/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/yashwanthramsomireddy/KingCalc/releases/tag/v1.0.0

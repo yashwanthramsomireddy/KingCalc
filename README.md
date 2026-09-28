@@ -46,8 +46,8 @@ There is no backend, database, login, payment system or analytics.
 Requirements: Node.js 20+, npm, and the Expo Go app on your phone.
 
 ```bash
-git clone https://github.com/teamexykings/kingcalc.git
-cd kingcalc
+git clone https://github.com/yashwanthramsomireddy/KingCalc.git
+cd KingCalc
 npm install
 npx expo start
 ```
@@ -55,6 +55,8 @@ npx expo start
 Scan the QR code with Expo Go (Android) or the Camera app (iOS). The app runs fully in Expo Go, so no custom dev client is needed. If your phone cannot reach your computer on the same Wi-Fi, run `npx expo start --tunnel` instead.
 
 Useful scripts: `npm run typecheck` checks the TypeScript.
+
+The repo includes an `.npmrc` with `legacy-peer-deps=true`, so a plain `npm install` works. Some Expo SDK 57 packages declare optional peer dependencies (such as `react-dom` and `react-native-worklets`) that npm would otherwise resolve to versions that do not match the SDK.
 
 ### Release build
 
@@ -71,11 +73,12 @@ The Android package name is `in.teamexykings.kingcalc` (change it in `app.json` 
 ## Project structure
 
 ```
-app/                 Expo Router screens: calculator, currency, units, percent, loan, settings, about
+app/                 Expo Router screens: calculator, currency, units, percent, loan, settings, faq, about
 src/calc/            Expression parser and keypad input rules
 src/components/      Drawer, screen wrapper, picker, shared UI
 src/unitsData.ts     Unit tables and conversion
 src/currency.ts      Rates fetching, caching, currency names
+src/faqData.ts       Questions and answers for the in-app FAQ
 src/theme.ts         Black and White theme tokens
 src/fonts.ts         The five bundled fonts
 src/settings.tsx     Saved settings (theme, font, number format, haptics)

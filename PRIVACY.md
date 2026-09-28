@@ -47,7 +47,7 @@ KingCalc collects no data from anyone, including children under 13.
 
 ## Open source
 
-KingCalc is open source under the MIT License. You can inspect exactly what the app does at https://github.com/teamexykings/kingcalc.
+KingCalc is open source under the MIT License. You can inspect exactly what the app does at https://github.com/yashwanthramsomireddy/KingCalc.
 
 ## Changes to this policy
 
