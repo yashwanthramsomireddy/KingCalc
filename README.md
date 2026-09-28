@@ -15,11 +15,12 @@ A [TeamExyKings](https://teamexykings.in) product, built by Yashwanth Ram Somire
 
 ## Features
 
-- **Calculator:** live result preview, calculation history, `%` and `()` handling, `00` key, haptic feedback
+- **Calculator:** live result preview, tap-to-place blinking cursor to edit anywhere, copy and paste formulas, calculation history, `%` and `()` handling, `00` key, haptic feedback
 - **Currency:** convert between about 160 currencies, favourites, works offline using the last saved rates
 - **Units:** length, weight, temperature, area (including cent, guntha and ground), volume, speed, time and data
 - **Percent:** X% of Y, X is what % of Y, and percentage change
 - **Loan / EMI:** monthly EMI, total interest, total payable and an optional amortization table
+- **Landscape:** side-by-side display and keypad with the extra keys always visible
 - **Themes:** Black (pure AMOLED), White, or follow the system setting
 - **Fonts:** Inter, Poppins, JetBrains Mono, Space Grotesk, Nunito
 - **Number format:** Indian (1,00,000) or international (100,000) grouping
@@ -37,6 +38,7 @@ A [TeamExyKings](https://teamexykings.in) product, built by Yashwanth Ram Somire
 - TypeScript
 - A small built-in expression parser for safe evaluation (no `eval`, no heavy math library)
 - AsyncStorage for local history, settings and cached rates
+- expo-clipboard for copy and paste
 - EAS Build for release builds
 
 There is no backend, database, login, payment system or analytics.

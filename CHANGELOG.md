@@ -12,6 +12,11 @@ First public release.
 
 ### Added
 - Calculator with live result preview, history, `%`, `()` and `00` keys
+- Blinking cursor: tap the expression to insert or delete anywhere, or select several characters to replace
+- Copy the formula (copy button) or just the result (long-press the result line), and paste formulas back at the cursor; long-press a history entry to copy its formula
+- Landscape support: side-by-side display and keypad on the calculator, adapted layouts elsewhere
+- Themed confirmation dialog for clearing history
+- The app always starts on a pitch-black screen, and Black is the default theme
 - Currency converter with favourites and offline cached rates
 - Unit converter: length, weight, temperature, area (with cent, guntha, ground), volume, speed, time, data
 - Percent calculator: X% of Y, X is what % of Y, percentage change
